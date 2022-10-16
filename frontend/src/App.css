@@ -1,0 +1,113 @@
+.mainHeading {
+  margin-top: 7vh;
+
+  padding: 5px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+th,
+td {
+  padding: 15px;
+  margin: 45px;
+}
+td {
+  border: solid 1px black;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.block_container {
+  border: solid black 1px;
+  width: 600px;
+  padding: 20px;
+  height: 450px;
+  margin-top: 50px;
+
+  margin-left: -80px;
+}
+.block_container2 {
+  /*  width:600px;
+  padding:30px;
+  height:450px; */
+  border: 3px solid black;
+  padding: 30px;
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.expenseParent {
+  margin-left: 530px;
+  text-align: center;
+}
+.expenseDiv,
+.searchDiv {
+  display: inline-block;
+
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.expenseDiv {
+  margin-left: -550px;
+}
+.searchDiv {
+  margin-top: 0px;
+  margin-left: 90px;
+}
+
+.costDiv {
+  margin-left: 350px;
+  margin-top: -300px;
+}
+
+.loginPage {
+  margin-top: 7vh;
+  border: solid 2px rgb(165, 40, 40);
+  padding: 100px;
+}
+.registerPage {
+  margin-top: 7vh;
+  border: solid 2px black;
+  padding: 30px;
+}
+body {
+  background-color: #fffff0;
+  padding: 200px;
+}
+.flexbox-container {
+  display: flex;
+}
+
+.fi {
+  width: 300px;
+  margin: 10px;
+
+  align-content: center;
+}
+.test1 {
+  min-height: 350px;
+}
+.test2 {
+  min-height: 200px;
+  margin-left: 150px;
+}
+.budgetContainer {
+  border: 3px solid black;
+  padding: 30px;
+  width: 600px;
+  border-radius: 10px;
+}
+.mainOverview {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  margin-left: 100px;
+}
